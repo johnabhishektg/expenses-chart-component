@@ -82,18 +82,39 @@ body{
 
 .chart .chart-line{
     background-color: var(--Soft-red);
-    margin-top: 2rem;
     height: 70px;
     border-radius: 6px;
     width: 40px;
+}
+
+.chart .chart-line:hover{
+    background-color: var(--Cyan);
+    transition: all 0.05s;
+    cursor: pointer;
+}
+
+
+.chart .num{
+    background-color: rgba(0, 0, 0, 0.667);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 7px;
+
+}
+
+.chart .num-disp{
+    display: none;
 }
 
 .chart #tue{
     height: 30px;
 }
 
-.chart #fri{
-    height: 150px;
+#fri{
+    height: 100px;
 }
 
 .chart button p{
