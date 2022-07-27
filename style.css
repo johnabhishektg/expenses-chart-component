@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root{
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Light-brown: hsl(28, 29%, 78%);
+--Cream: hsl(27, 66%, 92%);
+--White: #fff;
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-pale-orange);
+}
+
+/* BALANCE */
+
+.balance-comp{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: var(--Soft-red);
+    width: 400px;
+    color: var(--White);
+}
+
+.bal-left p{
+    font-size: 14px;
+}
+
+.bal-left h3{
+    font-size: 1.5rem; 
+    margin-top: 4px;
+}
+
+.bal-img{
+    width: 80%;
+}
+
+/* STATS */
+
+.spending-stats{
+    background-color: var(--Cream);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    width: 400px;
+}
+
+.spending-stats h2{
+    font-size: 1.2rem;
+    color: var(--Dark-brown);
+}
+
+.chart{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+}
+
+.chart button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.chart .chart-line{
+    background-color: var(--Soft-red);
+    height: 70px;
+    border-radius: 6px;
+    width: 40px;
+}
+
+.chart .chart-line:hover{
+    background-color: var(--Cyan);
+    transition: all 0.05s;
+    cursor: pointer;
+}
+
+
+.chart .num{
+    background-color: rgba(0, 0, 0, 0.667);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 7px;
+
+}
+
+.chart .num-disp{
+    display: none;
+}
+
+.chart #tue{
+    height: 30px;
+}
+
+#fri{
+    height: 100px;
+}
+
+.chart button p{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--Medium-brown);
+    margin-top: 5px;
+}
+
+/* TOTAL */
+
+.hr{
+    margin: 1rem 0;
+    height: 1px;
+    background-color: var(--Light-brown);
+    outline: none;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tot-left p{
+    font-size: 12px;
+    color: var(--Medium-brown);
+}
+
+.tot-left h2{
+    font-size: 1.5rem;
+    color: var(--Dark-brown);
+}
+
+.tot-right h3{
+    text-align: right;
+    font-size: 15px;
+}
+
+.tot-right p{
+    font-size: 12px;
+}
+
