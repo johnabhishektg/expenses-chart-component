@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Expenses chart component</title>
-    
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </style>
 </head>
+
 <body>
-<div class="container">
-<div class="balance-comp">
-  <div class="bal-left">
-  <p> My balance </p>
-  <h3>$921.48</h3>
-  </div>
-  <div class="bal-right">
-    <img class="bal-img" src="images/logo.svg" alt="balance-logo">
-  </div>
-</div>  
-  
-<!-- Stats -->
-  
-  <div class="spending-stats"> 
-  <h2>Spending - Last 7 days</h2>
-    <div class="chart" id="chart">
-      
+  <div class="container">
+    <div class="balance-comp">
+      <div class="bal-left">
+        <p> My balance </p>
+        <h3>$921.48</h3>
+      </div>
+      <div class="bal-right">
+        <img class="bal-img" src="images/logo.svg" alt="balance-logo">
+      </div>
     </div>
-  <!--TOTAL  -->
-  <div class="hr"></div>
-  <div class="total">
-    <div class="tot-left">
-      <p> Total this month </p>
-      <h2> $478.33 </h2>
-    </div>  
-  <div class="tot-right">
-    <h3>+2.4%</h3>
-    <p> from last month </p> 
+
+    <!-- Stats -->
+
+    <div class="spending-stats">
+      <h2>Spending - Last 7 days</h2>
+      <div class="chart" id="chart">
+
+      </div>
+      <!--TOTAL  -->
+      <div class="hr"></div>
+      <div class="total">
+        <div class="tot-left">
+          <p> Total this month </p>
+          <h2> $478.33 </h2>
+        </div>
+        <div class="tot-right">
+          <h3>+2.4%</h3>
+          <p> from last month </p>
+        </div>
+      </div>
+    </div>
   </div>
- </div>
-</div>
-</div> 
 </body>
 <script src="app.js"></script>
+
 </html>
