@@ -151,3 +151,31 @@ body{
     font-size: 12px;
 }
 
+
+/* MOBILE */
+
+@media screen and (max-width: 400px) {
+ 
+.balance-comp{
+    width: 300px;
+    margin: 3rem 1rem 0;
+}
+
+.spending-stats{
+    width: 300px;
+    margin: 1rem 1rem 0;
+}
+
+.chart .chart-line{
+    width: 25px;
+}
+
+.num{
+    font-size: 6px;
+    font-weight: 800;
+    padding: 2px;
+    margin-bottom: 4px;
+    border-radius: 7px;
+}
+
+}
